@@ -110,7 +110,7 @@ function onGetResponse(err, res) {
     return;
   }
 
-  if(!res.articles.lenght) {
+  if(!res.articles.length) {
     // show empty message
     return;
   }
